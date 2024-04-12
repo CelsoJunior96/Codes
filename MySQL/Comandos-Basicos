@@ -1,0 +1,110 @@
+Listagem de Comandos Básicos para MySQL
+
+
+Criar um Banco de Dados
+
+CREATE DATABASE nome_do_banco;
+
+Cria um novo banco de dados com o nome especificado.
+
+________________________________________________________________________
+
+Selecionar um Banco de Dados
+
+USE nome_do_banco;
+
+Seleciona um banco de dados existente para realizar operações.
+
+________________________________________________________________________
+
+Criar uma Tabela
+
+CREATE TABLE nome_da_tabela (
+    coluna1 tipo_de_dado,
+    coluna2 tipo_de_dado,
+    coluna3 tipo_de_dado
+);
+
+Cria uma nova tabela com as colunas especificadas.
+
+________________________________________________________________________
+
+Inserir Dados
+
+INSERT INTO nome_da_tabela (coluna1, coluna2) VALUES (valor1, valor2);
+
+Insere dados nas colunas especificadas da tabela.
+
+________________________________________________________________________
+
+Selecionar Dados
+
+SELECT * FROM nome_da_tabela;
+
+Seleciona todos os dados de uma tabela.
+
+________________________________________________________________________
+
+Selecionar Dados com Condição
+
+SELECT * FROM nome_da_tabela WHERE condição;
+
+Seleciona dados que atendem a uma condição específica.
+
+________________________________________________________________________
+
+Atualizar Dados
+
+UPDATE nome_da_tabela SET coluna1 = valor1 WHERE condição;
+
+Atualiza dados em uma tabela conforme a condição especificada.
+
+________________________________________________________________________
+
+Excluir Dados
+
+DELETE FROM nome_da_tabela WHERE condição;
+
+Exclui dados de uma tabela que atendem a uma condição específica.
+
+________________________________________________________________________
+
+Criar um Índice
+
+CREATE INDEX nome_do_indice ON nome_da_tabela (coluna);
+
+Cria um índice para uma coluna específica para aumentar a velocidade das consultas.
+
+________________________________________________________________________
+
+Excluir uma Tabela
+
+DROP TABLE nome_da_tabela;
+
+Exclui uma tabela especificada e todos os seus dados.
+
+________________________________________________________________________
+
+Excluir um Banco de Dados
+
+DROP DATABASE nome_do_banco;
+
+Exclui o banco de dados especificado.
+
+________________________________________________________________________
+
+Mostrar todas as Tabelas
+
+SHOW TABLES;
+
+Lista todas as tabelas no banco de dados atual.
+
+________________________________________________________________________
+
+Mostrar a Estrutura de uma Tabela
+
+DESCRIBE nome_da_tabela;
+
+Mostra a estrutura de colunas de uma tabela.
+
+Esses comandos básicos ajudam a gerenciar dados e estruturas dentro de um banco de dados MySQL. Certifique-se de substituir nome_do_banco, nome_da_tabela, coluna, tipo_de_dado, valor e condição pelos nomes e valores correspondentes às suas necessidades específicas.
