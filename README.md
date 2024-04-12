@@ -11,7 +11,7 @@ Este repositório é organizado por linguagem de programação e funcionalidade.
 - `/JavaScript` - Trechos úteis para desenvolvimento web e Node.js.
 - `/Python` - Exemplos para automação, análise de dados e scripts gerais.
 - `/HTML-CSS` - Snippets para estilização e estruturação de páginas web.
-- `/SQL` - Scripts para manipulação e consulta de bases de dados.
+- `/MySQL` - Scripts para manipulação e consulta de bases de dados.
 
 ## Como Usar
 
