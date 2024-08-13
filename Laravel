@@ -1,0 +1,8 @@
+Quando tentar rodar o comando "php artisan serve" e obter esse erro:
+The diretório\bootstrap\cache directory must be present and writable.
+
+Usar os comandos:
+
+mkdir -p bootstrap/cache
+
+chmod -R 775 bootstrap/cache
